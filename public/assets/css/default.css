@@ -1,0 +1,473 @@
+/* home page */
+
+body {
+    background-image: url(../images/Cloths-bc740630f228713e4bb0de8a7bffce22.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1080px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  #join:link, #join:visited {
+    background-color: #35BA23;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #join:hover, #join:active {
+    background-color: green;
+  }
+
+/* Top area */
+
+#header {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 90%;
+}
+
+#logo {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#logo span {
+    color: #35BA23;
+    margin-left: 3px;
+}
+
+#navigation {
+    text-align: right;
+    font-size: 1.5em;
+}
+
+#navigation > * {
+    margin-left: 25px;
+}
+
+.button {
+    font-size: 1.2em;
+    box-shadow: 5px 5px black;
+}
+
+/* Middle area */
+
+#feature_section {
+    margin-top: 350px;
+}
+
+#feature_section h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0%;
+    text-align: center;
+}
+
+#feature_section p {
+    font-size: 1.25em;
+    color: grey;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#search_bar {
+    width: 50%;
+    border-radius: 100px;
+    font-size: 1.5em;
+    display: flex;
+    margin: 100px auto 0;
+    outline: 0px;
+    padding: 5px;
+}
+
+/* Promotion area */
+
+#promotion_section {
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#promotion_section > *{
+    width: 28%;
+    margin: 0 2%;
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+#promotion1{
+    background-color: #ea9999;
+}
+
+#promotion2{
+    background-color: #f6b26b;
+}
+
+#promotion3{
+    background-color: #c27ba0;
+}
+
+.promote_text {
+    padding-left: 15px;
+    margin: 50px 0;
+    color: white;
+}
+
+.promote_text div {
+    font-size: 1.5em;
+}
+
+.promote_text > .button{
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.promote_image img {
+    width: 100px;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+
+/* category area */
+
+.category_section{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}
+
+.category_list{
+    font-size: 1.5em;
+    font-weight: bolder;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.category_list > * {
+    padding: 30px 0;
+}
+
+.category_list > * > img{
+    width: 60px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.category_list span {
+    display:inline-block;
+    padding-top: 10px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.8%;
+    background-color: #FAFAFA;
+    width: 73%;
+}
+
+/* Product area */
+
+#product_section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    margin-bottom: 100px;
+}
+
+.product {
+    border: 3px solid;
+}
+
+.product_picture {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.product_picture img {
+    width:100%
+}
+
+.product_picture_not_found {
+    width: 60%;
+    margin: 0 auto;
+    height: 45%;
+}
+
+.product_discount {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    background-color: #ff9900;
+    border-radius: 15px;
+    font-size: 1.4em;
+    width: fit-content;
+    margin: 10px 0 0 77%;
+}
+
+.product_text {
+    display: inline-block;
+    width: 80%;
+    font-size: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+.product_discount_price {
+    color: red;
+    text-decoration: line-through;
+    font-size: 1.5em;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.product_new_price {
+    color: #16D116;
+    font-size: 1.5em;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.product_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product_footer button {
+    margin-right: 20px;
+}
+
+.product_link:link{
+    color: black;
+    text-decoration: none;
+}
+
+.product_link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+/* product page */
+
+#product_view {
+    border: 5px solid;
+    display: flex;
+    width: 100%;
+    padding: 25px 0 50px;
+}
+
+#product_image_section{
+    width: 40%;
+}
+
+#product_image_thumbnail_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#product_image_thumbnail_section > * {
+    border: 5px solid #D3D3D3;
+    width: 20%;
+}
+
+#product_image_thumbnail_section img {
+    width: 100%;
+}
+
+.vertical_line {
+    border-left: 5px solid #D3D3D3 ;
+    height: auto;
+
+}
+
+#product_detail_section {
+    margin: 0 3%;
+    width: 55%;
+}
+
+#product_detail_section .product_text {
+    margin-left: 0;
+    margin-bottom: 20%;
+}
+
+#price {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+#product_detail_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_name{
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cart {
+    margin: 30px 0;
+}
+
+#cart button {
+    padding: 5px;
+}
+
+.product_tag {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    margin-top: 10%;
+    width: 30%;
+    min-width: 225px;
+}
+
+.product_tag > * {
+    padding: 10px;
+    background-color:#BEBEBE;
+    border-radius: 10px;
+}
+
+#comment {
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px 0 30px;
+}
+
+.review_section {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.review {
+    border: 5px solid #D3D3D3;
+
+}
+
+.review_info {
+    display: flex;
+    width: 95%;
+    margin:  25px auto;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.reviewer_profile_pic{
+    width: 5%;
+    min-width: 65px;
+    margin-right: 25px;
+}
+
+.reviewer_profile_pic img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.reviewer_name {
+    color: #289ae0;
+    padding-bottom: 5px;
+    
+}
+
+.review_date {
+    color: lightslategrey;
+    padding-top: 5px;
+}
+
+.review_comment {
+    width: 95%;
+    margin:  25px auto;
+    font-size: 1.1em;
+}
+
+.comment_box {
+    margin: 30px 0;
+    width: 97.5%;
+}
+
+.comment_box fieldset {
+    width: 100%;
+    border: 3px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input_comment {
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    background-color: #FAFAFA;
+}
+
+.summit_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#send_button {
+    color: white;
+    background-color: #35BA23;
+    margin-right: 20px;
+    outline: none;
+}
+
+/* For responsive webpage */
+
+@media only screen and (max-width: 1500px){
+    body{
+        background-image: url(../images/Cloths-bc740630f228713e4bb0de8a7bffce22.png);
+        background-repeat: no-repeat;
+        background-size: 100% 800px;
+        font-size: 14px;
+    }
+
+    #feature_section {
+        margin-top: 250px;
+    }
+
+    #promotion_section {
+        margin-top: 300px;
+    }
+
+    .product_picture_not_found {
+        height: 40%;
+    }
+
+    .product_discount {
+        padding: 10px;
+        display: block;
+        background-color: #ff9900;
+        border-radius: 15px;
+        width: fit-content;
+        margin: 5% 0 0 77%;
+    }
+}
